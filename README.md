@@ -1,0 +1,4 @@
+##start:
+
+yarn
+yarn test

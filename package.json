@@ -1,0 +1,14 @@
+{
+  "name": "jest06_sabe02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^28.1.1",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^14.4.1"
+  },
+  "scripts": {
+    "test": "jest"}
+
+}
