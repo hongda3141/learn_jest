@@ -1,10 +1,12 @@
 module.exports = {
-    preset: "jest-puppeteer",
-    globals: {
-        THEURL: "https://sabe.io"
-    },
-    testMatch: [
-        "**/test/**/*.test.js"
-    ],
-    verbose: true
-}
+  globals: {
+    AURL: "https://sabe.io",
+    AAAAA: "iji",
+  },
+  preset: "jest-puppeteer", // 这样写时,配置文件是;jest-puppeteer/jest-preset.js
+  // 但是配置了testEnvironment,上面怎么写都不影响变量了.
+  globalSetup: "./jest111/setup.js",
+  testEnvironment: "./jest111/p.js",
+  testMatch: ["**/test/**/*.test.js"],
+  verbose: true,
+};
