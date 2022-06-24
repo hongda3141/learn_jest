@@ -44,6 +44,8 @@ describe("Test title and header of the homepage", () => {
     console.log("just a null test");
     console.log(AAAAA);
     console.log(SSS);
+    console.log(app);
+    console.log(app1);
     expect(sum(1, 2)).toBe(3);
   });
 });
